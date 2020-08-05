@@ -1,5 +1,6 @@
 def roll_call_dwarves(dwarves)
-  dwarves.sort 
+  each_with_index.do 
+    dwarves.sort 
   
 end
 
