@@ -13,8 +13,5 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  new_array = []
-  .collect{|i| strings.include(i)}
-  
-puts cheeses.collect{|c| foods.include?(c)}.include?(true)
+  strings.detect{|i| cheese_types.include(i)}
 end
