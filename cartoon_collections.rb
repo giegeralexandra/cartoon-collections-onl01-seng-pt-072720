@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
   puts dwarves.each_with_index
 end
 
-def summon_captain_plane(veggies)
+def summon_captain_planet(veggies)
   veggies.collect{|x| x.capitalize!}
 end
 
