@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   each_with_index.do |dwarves,i|
-    puts "#{i}. #{dwarves} 
-  
+    puts "#{i}. #{dwarves}"
+  end
 end
 
 def summon_captain_planet(calls)
