@@ -1,10 +1,10 @@
 def roll_call_dwarves(dwarves)
   dwarves.sort 
-  puts dwarves.each_with_index
+  puts dwarves
 end
 
 def summon_captain_planet(veggies)
-  veggies.collect{|x| x.capitalize!}
+  veggies.collect{|x| x.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
