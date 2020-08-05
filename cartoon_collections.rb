@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.sort 
-  puts dwarves 
+  puts dwarves.each_with_index
 end
 
 def summon_captain_plane(veggies)
