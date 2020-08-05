@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   each_with_index.do |dwarves,i|
-    dwarves.sort 
+    puts dwarves.sort 
   
 end
 
