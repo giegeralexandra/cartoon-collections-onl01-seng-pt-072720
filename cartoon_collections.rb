@@ -1,10 +1,10 @@
-def roll_call_dwarves(array)
-  array.sort 
-  puts array 
+def roll_call_dwarves(dwarves)
+  dwarves.sort 
+  puts dwarves 
 end
 
-def summon_captain_plane(array)
-  array.collect{|x| x.capitalize!
+def summon_captain_plane(veggies)
+  veggies.collect{|x| x.capitalize!}
 end
 
 def long_planeteer_calls# code an argument here
