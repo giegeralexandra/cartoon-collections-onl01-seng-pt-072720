@@ -13,5 +13,6 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strings.find{|i| i == cheese_types}
+  new_array = []
+  new_array << strings.find{|i| i == cheese_types}
 end
