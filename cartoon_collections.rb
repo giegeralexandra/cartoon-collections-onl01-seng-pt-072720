@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  veggies.collect{|x| x.capitalize + "!"}
+  calls.collect{|x| x.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)
