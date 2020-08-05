@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.sort 
-  print dwarves
+  
 end
 
 def summon_captain_planet(calls)
