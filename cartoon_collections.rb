@@ -10,7 +10,7 @@ end
 def long_planeteer_calls(calls)
   i = 0 
   while calls.length > i 
-     return long_calls[i] if yield(long_calls[i])
+     return calls[i] if yield(calls[i])
     i+=1 
   end
 end
