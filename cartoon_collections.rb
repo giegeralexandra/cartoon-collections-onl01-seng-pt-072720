@@ -7,7 +7,7 @@ def summon_captain_planet(calls)
   calls.collect{|x| x.capitalize + "!"}
 end
 
-def long_planeteer_calls(calls)
+def long_planeteer_calls(long_calls)
   i = 0 
   while
     if yield calls[i]
