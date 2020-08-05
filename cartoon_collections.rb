@@ -1,13 +1,10 @@
 def roll_call_dwarves(array)
-  i = 0 
-  new_array = []
-  while i< array.length
-    yield new_array << array.sort
-  end
+  array.sort 
+  puts array 
 end
 
 def summon_captain_plane(planeteer_calls)
-  # Your code here
+  plan
 end
 
 def long_planeteer_calls# code an argument here
