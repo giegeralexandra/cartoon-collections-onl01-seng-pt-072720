@@ -1,6 +1,9 @@
 def roll_call_dwarves(array)
-  array.each_with_index do |
-  
+  i = 0 
+  new_array = []
+  while i< array.length
+    yield new_array << array.sort
+  end
 end
 
 def summon_captain_planet# code an argument here
